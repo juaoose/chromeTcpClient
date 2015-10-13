@@ -1,0 +1,17 @@
+{
+  "name": "TCP Client",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "minimum_chrome_version": "33.0.1715.0",
+  
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "sockets": {
+    "tcp": {
+      "connect": "*:*"
+    }
+  }
+}
